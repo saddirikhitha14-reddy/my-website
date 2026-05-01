@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0b0f2a;
+    color: #fff;
+    padding-top: 70px;
+}
+
+/* Navbar */
+.navbar {
+    background: transparent;
+    padding: 15px 0;
+}
+
+.navbar a {
+    color: #bbb;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #fff;
+}
+
+/* Sections */
+.section {
+    padding: 90px 0;
+}
+
+.dark {
+    background: #11163a;
+}
+
+/* About */
+.avatar {
+    width: 120px;
+    height: 120px;
+    background: #1a1f4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border-radius: 12px;
+    margin: auto;
+}
+
+.desc {
+    color: #cfd3ff;
+    line-height: 1.6;
+}
+
+.info p {
+    margin: 5px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 5px;
+}
+
+/* Skills */
+.card-box {
+    background: #1a1f4d;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.card-box:hover {
+    transform: translateY(-5px);
+}
+
+/* Projects */
+.project-box {
+    background: #1a1f4d;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.project-box button {
+    margin-top: 10px;
+    background: #f0c040;
+    border: none;
+    padding: 8px 15px;
+}
+
+/* Contact */
+input, textarea {
+    width: 60%;
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+    background: #0b0f2a;
+    border: 1px solid rgba(255,255,255,0.2);
+    color: white;
+}
+
+button {
+    background: #f0c040;
+    border: none;
+    padding: 10px 20px;
+}
